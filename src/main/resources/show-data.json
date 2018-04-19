@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "firstName": "Randy",
+      "lastName": "Strobel",
+      "username": "admin",
+      "email": "admin@email.com",
+      "password": "admin",
+      "enabled": true,
+      "roles": ["ROLE_ADMIN", "ROLE_REST_USER", "ROLE_USER"]
+    },
+    {
+      "firstName": "Bernie",
+      "lastName": "Kosar",
+      "username": "user1",
+      "email": "user1@email.com",
+      "password": "user1",
+      "enabled": true,
+      "roles": ["ROLE_USER"]
+    },
+    {
+      "firstName": "Clay",
+      "lastName": "Mathews",
+      "username": "user2",
+      "email": "user2@email.com",
+      "password": "user2",
+      "enabled": true,
+      "roles": ["ROLE_USER"]
+    },
+    {
+      "firstName": "Hanford",
+      "lastName": "Dixon",
+      "username": "user3",
+      "email": "user3@email.com",
+      "password": "user3",
+      "enabled": true,
+      "roles": ["ROLE_USER"]
+    }
+  ],
+  "userFilters": [
+    {
+      "name": "Action movies",
+      "showTypeName": "Movie",
+      "starRating": 2,
+      "genres": ["Action"]
+    },
+    {
+      "name": "Fun movies in HD",
+      "showTypeName": "Movie",
+      "starRating": 2,
+      "format": "BLU-RAY",
+      "genres": ["Action", "Adventure", "Comedy", "Sci-Fi"]
+    },
+    {
+      "name": "Good anime",
+      "showTypeName": "TV",
+      "starRating": 4,
+      "genres": ["Anime"]
+    }
+  ],
+  "showTypes": [
+    {
+      "name": "Movie",
+      "genres": ["Action", "Adventure", "Romance", "Comedy", "Drama", "Anime", "Cartoon", "Psychological", "Suspense", "Military", "Sci-Fi", "Historical"]
+    },
+    {
+      "name": "TV",
+      "genres": ["Action", "Adventure", "Romance", "Comedy", "Drama", "Sit-Com", "Anime", "Cartoon"]
+    }
+  ],
+  "shows": [
+    {
+      "title": "Pulp Fiction",
+      "tagLine": "Vincent Vega",
+      "description": "Vincent Vega",
+      "mdbId": "abc123",
+      "imdbId": "abc123",
+      "releaseDate": "2001-01-01",
+      "runtime": 124,
+      "showType": "Movie",
+      "genres": ["Action", "Adventure"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 4
+    },
+    {
+      "title": "Lost In Translation",
+      "tagLine": "Couple find each other in Japan.",
+      "description": "Couple find each other in Japan.",
+      "mdbId": "abc124",
+      "imdbId": "abc124",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Romance", "Comedy"],
+      "mediaFormat": "Amazon Prime",
+      "starRating": 3
+    },
+    {
+      "title": "Fight Club",
+      "tagLine": "His name was Robert Paulson.",
+      "description": "Story of a insurance adjuster, turn soap salesman, turn underground fight club and vandal.",
+      "showRating": "R",
+      "contents": "Language, Violence, Substance Abuse, Nudity, Sexual Content",
+      "mdbId": "abc125",
+      "imdbId": "tt0137523",
+      "releaseDate": "1999-10-15",
+      "runtime": 139,
+      "showType": "Movie",
+      "genres": ["Action", "Psychological"],
+      "mediaFormat": "BLU-RAY",
+      "myNotes": "Awesome mind blowing.",
+      "starRating": 5
+    },
+    {
+      "title": "Airplane",
+      "tagLine": "Don't call me Shirley.",
+      "description": "Macho Grande.",
+      "mdbId": "abc126",
+      "imdbId": "abc126",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Comedy"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 5
+    },
+    {
+      "title": "Airplane II",
+      "tagLine": "What's a man doing with a bobby pin?",
+      "description": "Wait a second. This is auto insurance!",
+      "mdbId": "abc127",
+      "imdbId": "abc127",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Comedy"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 5
+    },
+    {
+      "title": "Michael Clayton",
+      "tagLine": "I'm not a miracle worker.  I'm a janitor.",
+      "description": "It was a joke.  Lighten up.",
+      "mdbId": "abc128",
+      "imdbId": "abc128",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Drama", "Suspense"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 5
+    },
+    {
+      "title": "Heartbreak Ridge",
+      "tagLine": "Improvise. Adapt. Overcome.",
+      "description": "Run into any cluster fucks lately?",
+      "mdbId": "abc129",
+      "imdbId": "abc129",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Action", "Military"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 5
+    },
+    {
+      "title": "We Were Soldiers",
+      "tagLine": "Garry Owen",
+      "description": "The 7th Cavalry? Same regiment as Custer.",
+      "mdbId": "abc130",
+      "imdbId": "abc130",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Action", "Military", "Drama"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 5
+    },
+    {
+      "title": "Star Wars: Return Of The Jedi",
+      "tagLine": "I ama Jedi, like my father before me.",
+      "description": "I don't know! Fly casual.",
+      "mdbId": "abc131",
+      "imdbId": "abc131",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 5
+    },
+    {
+      "title": "Gladiator",
+      "tagLine": "Are you not entertained?",
+      "description": "There once was a dream that was Rome.",
+      "mdbId": "abc132",
+      "imdbId": "abc132",
+      "releaseDate": "2007-01-01",
+      "runtime": 109,
+      "showType": "Movie",
+      "genres": ["Action", "Historical"],
+      "mediaFormat": "BLU-RAY",
+      "starRating": 5
+    },
+    {
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "tagLine": "Ed and Al Elrich",
+      "description": "Ed and Al Elrich",
+      "mdbId": "abc126",
+      "imdbId": "abc126",
+      "releaseDate": "2008-01-01",
+      "runtime": 25,
+      "showType": "TV",
+      "genres": ["Anime", "Action", "Comedy", "Adventure"],
+      "mediaFormat": "Netflix",
+      "starRating": 5
+    }
+  ]
+}

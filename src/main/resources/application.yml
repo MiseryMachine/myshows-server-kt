@@ -1,0 +1,44 @@
+my-movies:
+  local-file-path: C:/projects/myshows-server/app-files
+server:
+  servlet:
+    context-path: /mymovies
+spring:
+  mvc:
+    favicon:
+      enabled: false
+tmdb:
+  api:
+#    key: <<your TMDB API key here>>
+    locale: en-US
+    url: https://api.themoviedb.org/3
+    image-url: http://image.tmdb.org/t/p
+    image-normal-path: /w500
+    image-thumb-path: /w92
+    genre-path: /genre
+    movie-path: /movie
+    tv-path: /tv
+    search-path: /search
+    list-path: /list
+---
+spring:
+  profiles: production
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_movies
+    username: rjs_root
+    password: rjs_admin
+---
+spring:
+  profiles:
+    - development
+    - test
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1
